@@ -663,17 +663,29 @@ margin-right: 76px;
     fill: #ffffff
 }
 
-.contact-form {
+.modal-form {
     box-sizing: border-box;
     width: 100%;
     height: 24px;
-    margin-top: 130px;
+    margin-top: 72px;
     margin-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
-.contact-form-input {
+.modal-form-input {
+    width: 100%;
+    margin-bottom: 26px;
+
+    
+
+}
+
+.modal-title-txt {
+    margin-bottom: 34px;
+}
+
+.modal-txt-pp {
 
 }
 
@@ -686,3 +698,14 @@ margin-right: 76px;
 
 }
 
+.modal-comment {
+    resize: none;
+    margin-bottom: 16px;
+}
+
+.modal-form-container {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
