@@ -703,6 +703,7 @@ margin-right: 76px;
 
 .input-icon-container {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .modal-form-input {
