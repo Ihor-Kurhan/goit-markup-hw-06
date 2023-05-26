@@ -311,17 +311,21 @@
             </svg>
         </div>
         </div>
-        
-        <span class="modal-form-area">Comment</span>
+        <div class="input-icon-container-comment">
+            <label class="modal-form-area" for="user-comment">Comment
+            </label>
+        </div>
         <textarea 
         id="user-comment"
         name="user-comment"
-        class="modal-comment modal-form-input"
+        class="modal-comment"
         placeholder="Text input"></textarea>
+        <div class="">
+        <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="modal-form-input">
         <label class="modal-txt" for="user-privacy">
-            <input type="checkbox" id="user-privacy" value="true" name="user-privacy">
             I accept the terms and conditions of the <a href="" class="modal-txt-pp">Privacy Policy></a>
         </label>
+        </div>
     </div>
     <div class="contact-btn">
         <button type="submit" class="btn-modal-send">Send</button>
