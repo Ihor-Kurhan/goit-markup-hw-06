@@ -641,6 +641,7 @@ margin-right: 76px;
 
 .modal-form-icon {
     position: absolute;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
     left: 16px;
@@ -678,7 +679,7 @@ margin-right: 76px;
 }
 
 .modal-form-container {
-    
+    margin-bottom: 8px;
 }
 
 .small-modal-container {
