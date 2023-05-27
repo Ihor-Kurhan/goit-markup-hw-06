@@ -747,15 +747,24 @@ margin-right: 76px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color:#8e8f99;
-}
-
-.visually-hidden {
-
+    color:#4d5ae5;
+    
 }
 
 .btn-modal-send {
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family:var(--main-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn-modal-send:hover,
@@ -787,7 +796,11 @@ margin-right: 76px;
     margin-bottom: 24px;
 }
 
-.modal-form-input-pp {
+.modal-form-input-pp:focus .user-privacy-span {
+    background-color:#404bbf;
+    border: none;
+    fill:#ffffff;
+    border-color:#404bbf;
 }
 
 .user-privacy-span {
