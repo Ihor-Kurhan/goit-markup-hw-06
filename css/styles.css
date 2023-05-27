@@ -796,12 +796,13 @@ margin-right: 76px;
     margin-bottom: 24px;
 }
 
-.modal-form-input-pp:focus .user-privacy-span {
+.modal-form-input-pp:checked + .user-privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#ffffff;
     border-color:#404bbf;
 }
+
 
 .user-privacy-span {
     width: 16px;
