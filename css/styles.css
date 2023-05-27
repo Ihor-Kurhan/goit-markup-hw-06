@@ -744,7 +744,10 @@ margin-right: 76px;
 }
 
 .modal-txt-pp {
-
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
 }
 
 .btn-modal-send {
@@ -774,4 +777,11 @@ margin-right: 76px;
 
 .modal-comment:focus {
     border-color: #4D5AE5;
+}
+
+.input-icon-container-pp {
+    margin-bottom: 24px;
+}
+
+.modal-form-input-pp {
 }
