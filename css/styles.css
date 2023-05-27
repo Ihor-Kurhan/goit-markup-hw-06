@@ -751,7 +751,7 @@ margin-right: 76px;
 }
 
 .visually-hidden {
-    
+
 }
 
 .btn-modal-send {
@@ -789,3 +789,15 @@ margin-right: 76px;
 
 .modal-form-input-pp {
 }
+
+.user-privacy-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #2e2f42;
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
