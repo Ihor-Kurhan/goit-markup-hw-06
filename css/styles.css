@@ -796,13 +796,25 @@ margin-right: 76px;
     margin-bottom: 24px;
 }
 
-.modal-form-input-pp:checked + .user-privacy-span {
+.modal-form-input-pp:checked + .modal-form-area {
     background-color:#404bbf;
     border: none;
     fill:#ffffff;
     border-color:#404bbf;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .user-privacy-span {
     width: 16px;
