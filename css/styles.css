@@ -858,7 +858,8 @@ margin-right: 76px;
     margin-bottom: 24px;
 }
 
-.modal-form-input-pp:checked + .modal-form-area {
+
+.modal-form-input-pp:checked + .modal-form-area > .user-privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#ffffff;
