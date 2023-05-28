@@ -791,12 +791,8 @@ margin-right: 76px;
 .modal-form-input:focus {
     border-color: #4D5AE5;
 }
-/* =======При фокусі на input,
- у svg у класі заданий стиль fill: #4D5AE5;
-  для зміни кольору іконки при кліку на input
-   (для цього потрібно прибрати властивість fill у спрайті для іконки)======= */
 
-   .modal-form-input:focus .modal-form-icon{
+   .modal-form-input:focus .modal-form-icon {
     fill: #4D5AE5;
 }
 
