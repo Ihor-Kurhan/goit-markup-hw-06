@@ -800,6 +800,10 @@ margin-right: 76px;
     fill: #4D5AE5;
 }
 
+.modal-form-input:focus .modal-form-icon-pp {
+    fill: #4D5AE5;
+}
+
 .modal-title-txt {
     font-weight: 500;
     font-size: 16px;
