@@ -572,7 +572,7 @@ margin-right: 76px;
 }
 /* =================== footer form ===================*/
 .footer-form-container {
-
+    margin-left: 80px;
 }
 
 .footer-form-txt {
@@ -710,9 +710,6 @@ margin-right: 76px;
 }
 
 .modal-form-icon-pp {
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
     color: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -834,7 +831,7 @@ margin-right: 76px;
 
 .btn-modal-send:hover,
 .btn-modal-send:focus {
-
+    background-color: #404BBF;
 }
 
 .modal-comment {
