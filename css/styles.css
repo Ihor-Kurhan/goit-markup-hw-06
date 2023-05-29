@@ -628,6 +628,10 @@ margin-right: 76px;
     border-radius: 4px;
 }
 
+.sub-btn:hover, .sub-btn:focus {
+    background: #404BBF;
+}
+
 .sub-btn-svg {
     margin-left: 16px;
     fill: #FFFFFF;
